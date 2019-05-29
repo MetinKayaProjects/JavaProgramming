@@ -35,7 +35,7 @@ public class VarArgs_Morodil {
 	 * sum(10,30,40); ==> 80
 	 * sum(30,40); ==> 70
 	 */
-	public static int sum(int... nums) {
+	public static int sum(int... nums) {  //(int[] nums)
 		int sum = 0;
 		for(int n : nums) {
 			sum += n;//sum = sum + n
@@ -44,12 +44,12 @@ public class VarArgs_Morodil {
 	}
 	
 	public static void cook(String name, String... ings) {
-		System.out.print("Food: " + name);
+		System.out.print("Food: [" + name + "]=> ings: ");
 		System.out.println(Arrays.toString(ings));
 	}
 //   shoppingList(1000, "Avocado Toast", "Swatch watch watch Watch", "Shoes", "Jacket");	
 	public static void shoppingList (int totalPrice, String... items ) {
-		System.out.print("Total cost: " + totalPrice);
+		System.out.print("Total cost: $" + totalPrice + ", Items: ");
 		System.out.println(Arrays.toString(items));
 	}
 

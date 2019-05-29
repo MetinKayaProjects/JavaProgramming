@@ -37,15 +37,19 @@ public class CountArray {
 		System.out.println("Twenty(2ndway): " + findOccurences(new int[] { 10, 20, 20, 30, 25, 52 }, 20));// 2nd way
 		System.out.println();
 
-		System.out.println(Arrays.toString(getRandomArray(11)));
+		System.out.println("getRandomArray(11): " + Arrays.toString(getRandomArray(11)));
 
 //		Random random = new Random();
 //		System.out.println(Arrays.toString(getRandomArray(random.nextInt(5))));
 		// for(;;) { //while(true) ==> both are infinite loop
 		System.out.println(Arrays.toString(CountArray.getRandomArray(20)));
 		// }
-		int[] randomNums = CountArray.getRandomArray(3);
+		int[] randomNums = CountArray.getRandomArray(3);//3 is size>>public static int[] getRandomArray(int size) 
 		System.out.println(Arrays.toString(randomNums));
+		
+		System.out.println();
+		
+		System.out.println(Arrays.toString(getArray()));//[45, 43, 11, 545, 1000]
 
 	}
 

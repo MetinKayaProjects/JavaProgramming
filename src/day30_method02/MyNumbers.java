@@ -37,9 +37,7 @@ public class MyNumbers {
 		}
 		System.out.println();
 	}
-	
-	public static void doPush10Ups() {
-		/*
+	/*
 		 name		: doPush10Ups
 		 return type : void
 		 params		: no	
@@ -51,6 +49,8 @@ public class MyNumbers {
 		 		Pushup-10
 		 		Time to rest
 		 */
+	public static void doPush10Ups() {
+		
 		//System.out.println("Pushup " + i);
 		for (int i = 1; i <= 10; i++) {
 			System.out.println("Pushup - " + i);

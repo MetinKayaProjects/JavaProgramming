@@ -32,6 +32,7 @@ public class RemoveInteger {
 		System.out.println(nums); //[1, 443, 10, 55]
 
 		Integer n2 = Integer.valueOf(10);
+		System.out.println("n2: " + n2);
 		nums.remove(n2); ////removes 10 
 		System.out.println(nums.toString()); //[1, 443, 55]
 		

@@ -51,7 +51,7 @@ public class multyDArrays_2 {
 //						  {6, 4, 2, 11}
 //						  };
 		
-		System.out.println("Number of values in 1: " +scores[0].length);  //Number of values in 1: 3
+		System.out.println("Number of values in 0: " +scores[0].length);  //Number of values in 0: 3
 		System.out.println("Number of values in 1: " +scores[1].length);  //Number of values in 1: 4
 		
 		System.out.println("**** *** *** *** *** *** **** ***");

@@ -4,6 +4,7 @@ import java.nio.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 
 public class FastFoodRestaurants {
 	public static void main(String[] args) throws IOException {
@@ -17,12 +18,24 @@ public class FastFoodRestaurants {
 		//print first row (first restaurant:
 		System.out.println("First line: "+ data[0]);  //address,city,name,postalCode,province,websites
 		System.out.println("First restaurant: " + data[1]);
-		
+		System.out.println();
+		String[] data0 = data[0].split(",");
+		System.out.println("TEst: " + Arrays.toString(data0));
+		System.out.println("Test2-data0[0]: "  + data0[0]);
+		System.out.println("Test2-data0[1]: "  + data0[1]);
+		System.out.println();
+
+//		String[] dataNew = {};
+//		for (int i = 0; i < data.length; i++) {
+//			dataNew[i] =data[i].split(",");
+//		}
+//		System.out.println("DATANEW: " + Arrays.toString(dataNew));
+		System.out.println();
 		//last restaurant
 		System.out.println("Last restaurant in the list: " + data[data.length-1]);
 		
 		//print each Restaurant information in separate line
-		int counter = 1;
+		int counter = 0;
 		for (String restaurants : data) {           //for each  (enhanced for) method   
 			System.out.println("#" +counter + "=>" + restaurants);
 			counter++;

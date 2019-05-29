@@ -8,6 +8,7 @@ public class MethodsWithString_Murodil {
 		countWords("this is method with strings");
 		
 		googleSearchResults("About 121,000,000 results (0.75 seconds)");
+//		[About, 121,000,000, results, (0.75, seconds)]
 		
 		String resultsStr = "About 16,600,000 results (0.73 seconds)";
 		googleSearchResults(resultsStr);
@@ -33,6 +34,7 @@ public class MethodsWithString_Murodil {
 	public static void googleSearchResults(String result) {
 		//split by space into array
 		String[] words = result.split(" ");
+		System.out.println(Arrays.deepToString(words));//[About, 121,000,000, results, (0.75, seconds)]
 		String count   = words[1].replace("," , "");
 		String seconds = words[3].replace("(" ,  "");
 		

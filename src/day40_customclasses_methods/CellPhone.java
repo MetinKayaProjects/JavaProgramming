@@ -22,6 +22,7 @@ public class CellPhone { //this is our class
 		
 	}
 	
+	// now we will create the main method as a single method. After that we will not need this in here.
 //	public static void main(String[] args) {
 //		
 //		CellPhone cell = new CellPhone();

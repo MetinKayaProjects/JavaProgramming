@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class UniqueArray_VoidMethodMurodil2 {
 	static public void main(String... strings) {
+		
 		int[] nums = { 7, 4, 1, 4, 1, 5, 9, 9, 3 };
 		System.out.println(Arrays.toString(nums));
 

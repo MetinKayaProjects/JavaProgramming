@@ -9,7 +9,7 @@ public class SixWords {
 	public static void main(String[] args) {
 		
 		/*
-		 *Write a program that will take from user 6 words
+		 *Write a program that will take from user 4 words
 		 *concat words with a comma
 		 *if words equals to java
 		 *skip this word
@@ -19,7 +19,7 @@ public class SixWords {
 		Scanner scan = new Scanner(System.in);
 		String summary = "";
 		
-		for (int i = 1; i <= 6; i++) {
+		for (int i = 1; i <= 4; i++) {
 			System.out.println("Enter a word " + i + ": ");
 			
 			String word = scan.next();

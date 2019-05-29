@@ -5,7 +5,8 @@ public class StudentAtSchool {
 		
 		study("Selenium");
 		study("Java");
-		study("Python, java");
+//		study("Python", "java"); //this doesn't compile, since has two paramaters. But there are no method has 2 param
+		study("Python,java");
 		
 		sleep(8);
 		sleep(3);

@@ -29,6 +29,13 @@ public class RawArrayList_mtn {
 		System.out.println(str);
 		//Integer i = list.get(3);
 		System.out.println(list.get(3));
+		System.out.println(list.set(0, "Monday"));
+		System.out.println(list.set(4, "pazar"));
+		System.out.println(list.remove(3));
+		System.out.println(list.toString());
+		list.clear();
+		System.out.println(list.toString()); //[]
+		System.out.println(list.isEmpty());//true
 		
 		
 	}

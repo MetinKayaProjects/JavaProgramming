@@ -17,15 +17,15 @@ public class ReverseSentence {
 	String[] strArr = str.split(" ");
 	
 	
-	System.out.println("Number of words: " + strArr.length);
-	System.out.println("Before: " + Arrays.toString(strArr));
+	System.out.println("Number of words: " + strArr.length); 
+	System.out.println("Before: " + Arrays.toString(strArr));//Before: [you, are, very, interesting, person]
 	
 	String reverse= "";
 	for (int i = strArr.length-1; i >= 0; i--) {
 		//System.out.print(strArr[i]+ " ");
 		reverse += strArr[i] + " ";
 		}
-		System.out.println("After reverse: " + reverse.trim());
+		System.out.println("After reverse: " + reverse.trim());//After reverse: person interesting very are you
 	
 	}
 

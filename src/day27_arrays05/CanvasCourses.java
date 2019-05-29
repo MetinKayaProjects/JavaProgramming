@@ -22,13 +22,14 @@ public class CanvasCourses {
 		String[] urlArr = url.split("/");
 	
 		System.out.println(Arrays.toString(urlArr));  //[https:, , learn.cybertekschool.com, courses, 149]
-		System.out.println("Length:" + urlArr.length);
+		System.out.println("Length:" + urlArr.length);//Length:5
 		
 		//get last number and convert to int data type
 		System.out.println(urlArr[urlArr.length - 1]); //149 is still String
 		
 		int courseID = Integer.parseInt(urlArr[urlArr.length - 1]);   //urlArr[4]   // Convert to integer from String  
 		//use switch statement to find course name
+		System.out.println("courseID: " + courseID);//courseID: 149
 		
 		switch(courseID) {
 		case 147:

@@ -11,7 +11,7 @@ public class Cities {
 		
 		System.out.println("******************");
 		
-		//TASK: print all cities that start with M
+		//TASK: print all cities that starts with M
 		String citiesStartsWithM = "";
 		for(int i=0; i<cities.length; i++) {
 			if(cities[i].startsWith("M")) {

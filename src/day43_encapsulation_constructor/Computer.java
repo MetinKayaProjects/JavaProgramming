@@ -16,8 +16,8 @@ public class Computer {
 	//add a constructor
 	public Computer() {  //constructor name should be same with class name
 		System.out.println("Computer constructor...");
-		brand = "unknown";
-		os = "unknown";
+		brand = "unknown";  //this.brand = "unknown";  is also ok
+		os = "unknown";     //this.os = "unknown";
 	}
 	
 	public Computer(String brand, String os, double price) {
@@ -35,11 +35,7 @@ public class Computer {
 
 
 	//getter setter: click seurce> Generate Getter and Setter
-	public String getBrand() {
-		return brand;
-	}
-
-
+	
 	public String getOs() {
 		return os;
 	}
@@ -63,6 +59,10 @@ public class Computer {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
+	public String getBrand() {
+		return brand;
+	}
+	
 
 }
 

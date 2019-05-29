@@ -1,7 +1,5 @@
 package day33_methods05;
 
-import com.sun.net.httpserver.Authenticator.Result;
-
 public class Calculator {
 	
 //	1) Method addVoid    (without return)

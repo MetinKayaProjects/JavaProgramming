@@ -32,7 +32,7 @@ public class Countries {
 		
 		// print USA w/ capital:
 		
-		System.out.println(countriesArray[0][0] + " " + countriesArray[0][1]); //USA Washington DC
+		System.out.println(countriesArray[0][0] + " - " + countriesArray[0][1]); //USA Washington - DC
 		
 //		"Kazakhstann","Nursultan"
 		

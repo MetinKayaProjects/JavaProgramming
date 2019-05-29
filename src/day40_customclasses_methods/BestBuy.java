@@ -38,15 +38,29 @@ public class BestBuy {
 		System.out.println("price: " + cell2.price);
 		
 		System.out.println("---- Calling Methods ----");
-		cell.call();    //bunlar void oldugundan syso yaptirmaya gerek yok. class adini yazmaya gerek yok
-		cell.message();
-		cell.takeAPhoto();
+		//bunlar void oldugundan syso yaptirmaya gerek yok. class adini yazmaya gerek yok
+		cell.call();    //public void call()'dan cagiriyoruz
+		cell.message(); //public void message()
+		cell.takeAPhoto();//public void takeAPhoto() 
 		
 		System.out.println();
 		
 		cell2.call();
 		cell2.message();
 		cell2.takeAPhoto();
+		
+		System.out.println();
+		
+		Contact c1 = new Contact();
+		c1.email = "mtn@gmail.com";
+		c1.name = "mtn";
+		c1.phoneNumber = "212-333-444";
+		c1.sendEmail();
+		c1.call();
+		c1.name();
+		c1.sendMessage();
+
+		c1.toString();
 
 	}
 

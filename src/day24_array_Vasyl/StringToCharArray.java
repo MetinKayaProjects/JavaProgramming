@@ -15,7 +15,7 @@ public class StringToCharArray {
 			System.out.print(chars[i]); //noops nedooW
 		}
 		
-		System.out.println("\n****");
+		System.out.println("\n**** reverse it: ");
 		
 		str = "";
 		for (int i = chars.length - 1; i >= 0; i--) {

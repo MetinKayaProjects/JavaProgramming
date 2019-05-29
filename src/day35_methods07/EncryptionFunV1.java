@@ -11,7 +11,8 @@ public class EncryptionFunV1 {
 		//find indexOf the char in alphabet
 		//read the char from encrypted at that index
 		//add to some string
-		char first = word.charAt(0); // 'e'
+		char first = word.charAt(0); 
+		System.out.println(first); // 'c'
 		int position = alphabet.indexOf(first);
 		System.out.println("position: " + position);
 		char enChar = encrypted.charAt(position);

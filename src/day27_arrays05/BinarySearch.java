@@ -15,7 +15,8 @@ public class BinarySearch {
 		int[] nums2 = {40, 6, 17, 10, 55};
 		Arrays.sort(nums2);//6, 10, 17, 40, 55
 		System.out.println(Arrays.binarySearch(nums2, 40));//3
-		//Arrays.binarySearch(a, fromIndex, toIndex, key)
+		System.out.println(Arrays.binarySearch(nums2, 1, 5, 17));//2
+//		Arrays.binarySearch(nums, fromIndex, toIndex, key)
 		//Arrays.sort(a, fromIndex, toIndex, c); //comparator
 	
 		System.out.println();

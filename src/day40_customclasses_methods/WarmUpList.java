@@ -21,7 +21,7 @@ public class WarmUpList {
 	            System.out.println("Unit test PASS: Count is 3.");
 	        }else {
 	            System.out.println("Unit Test FAIL: Count is " + count);
-	            System.out.println("Expected: 3");
+	            System.out.println("Expected: 3 " + targetWord + " in the " + myList);
 	            System.out.println("Result: " + count);
 	        }
 	        

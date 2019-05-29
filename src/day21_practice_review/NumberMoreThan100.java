@@ -31,8 +31,8 @@ public class NumberMoreThan100 {
 //	int num2 = scan.nextInt();
 //	int sumOfNums = num1 + num2;
 //	
-//	while(sumOfNums >= 100) {
-//		if(!(sumOfNums >= 100)){
+//	while(sumOfNums <= 100) {
+//		if(!(sumOfNums <= 100)){
 //			System.out.println("Enter number 1 : ");
 //			num1 = scan.nextInt();
 //			System.out.println("Enter number 2 : ");

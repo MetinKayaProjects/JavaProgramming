@@ -6,12 +6,13 @@ public class PrintWord {
 		String word = "javajavakaya";
 		for (int i = 0; i <= word.length()-1; i++) {
 			if(word.substring(i,i+1).equals("a")) {
-				continue; //skip, ignore a
+			//if(word.charAt(i)==('a')) {
+			continue; //skip, ignore a
 			}
 			System.out.println(word.substring(i, i+1));
-			
-		}
 		
+		}
+	
 		
 	}
 

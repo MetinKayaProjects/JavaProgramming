@@ -13,7 +13,7 @@ public class StringMethodsReview  {
 	if(!unique.contains(""+ch)) {
 		unique += ch; //unique = unique+ch;
 	}
-	
+	//or
 	if(unique.indexOf(ch) == -1) {
 		unique+=ch; // "ab"
 	}
@@ -23,7 +23,7 @@ public class StringMethodsReview  {
 	System.out.println("\n***************\n");
 	
 	String word2 = "bananas";
-	String unique2 ="";
+	//String unique2 ="";
 	
 	int i = 0;
 	char ch2 = word2.charAt(i);//b

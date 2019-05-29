@@ -8,6 +8,7 @@ public class AgeCalculator {
 		System.out.println(calculateAge(2023));
 		
 		int ageResult = calculateAge(1973);
+		System.out.println(ageResult);//46: age 26 - 64 -> adult
 		
 		ageResult = calculateAge(1999);
 		System.out.println("DoB: 1999: your age is "+ ageResult);

@@ -18,7 +18,7 @@ public class EncryptionFunV2 {
 	 * version encryptChar('b') ==> 'y'
 	 */
 	public static char encryptChar(char ch) {
-		String alphabet = "abcdefghijklmnopqrstuvwxyz";
+		String alphabet =  "abcdefghijklmnopqrstuvwxyz";
 		String encrypted = "zyxwvutsrqponmlkjihgfedcba";
 		// return encrypted.charAt( alphabet.indexOf(ch) );
 		int i = alphabet.indexOf(ch);

@@ -15,8 +15,12 @@ public class MyCities {
 		cities.add("Baku");
 		cities.add("Tashkent");
 
+		System.out.println(cities.toString());//[Barnaul, Dushanbe, Sterling, Baku, Tashkent]
+		
+		System.out.println();
+		
 //		print each city using for each loop separated by space
-
+				
 		for (String city : cities) {
 			System.out.print(city + " "); // Barnaul Dushanbe Sterling Baku Tashkent
 		}

@@ -5,14 +5,16 @@ public class MethodWithReturn {
 		
 		//giveMe10$();  //this doesnt compile
 		
-		System.out.println(giveMe10$());
+		System.out.println(giveMe10$()); //returning 10 from method
+										//10
 		
 		int i = giveMe10$();
-		System.out.println("i: " + i);
+		System.out.println("i: " + i); //returning 10 from method
+										//i: 10
 		
-		System.out.println(giveMeYourName());
+		System.out.println(giveMeYourName());//Metin
 		String  myName = giveMeYourName();
-		System.out.println(myName);
+		System.out.println(myName);//Metin
 		
 		System.out.println("****");
 		System.out.println(giveMeYourNameV2());

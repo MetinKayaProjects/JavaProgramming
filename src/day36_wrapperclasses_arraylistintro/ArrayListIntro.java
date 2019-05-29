@@ -55,7 +55,7 @@ public class ArrayListIntro {
 		System.out.println();
 		
 		System.out.println("Names count : " + names.size()); //5
-		
+		System.out.println(names.toString());
 		
 		System.out.println();
 		

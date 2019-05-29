@@ -28,6 +28,7 @@ public class WarmUpWithList {
 	 * 
 	 * Try solving without creating another arraylist in the method.
 	 */
+	
 
 	public static List<Integer> doubleTheList(List<Integer> nums) {
 		

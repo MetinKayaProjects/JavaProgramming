@@ -25,8 +25,8 @@ public class UniqueArray_All_Murodil {
 	}
 	
 	public static void findUnique(int[] nums) {
+		
 		for(int i = 0; i < nums.length; i++) {//outer loop 
-			
 			int temp = nums[i]; // get a number
 			int counter = 0;
 			//
