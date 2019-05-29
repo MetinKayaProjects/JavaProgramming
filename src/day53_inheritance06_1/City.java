@@ -1,5 +1,6 @@
 package day53_inheritance06_1;
 
+
 public class City {
 	private int id;
 	private String name;

@@ -1,5 +1,6 @@
 package day53_inheritance06_1;
 
+
 public class Cities {
 	public static void main(String[] args) {
 		
