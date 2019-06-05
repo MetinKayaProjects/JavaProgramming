@@ -39,10 +39,13 @@ public class MyContact {
 		System.out.println();
 		
 		System.out.println("Name: " + orhan.name);
+		System.out.println();
+		System.out.print("I'm now " ); orhan.call();
+		System.out.println();
 		System.out.println("PhoneNumber: " + orhan.phoneNumber);
 		System.out.println("email: " + orhan.email);
 		
-		
+		System.out.println(orhan.toString());
 		
 	}
 

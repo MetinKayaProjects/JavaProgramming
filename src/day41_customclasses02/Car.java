@@ -3,30 +3,19 @@ package day41_customclasses02;
 import java.util.*;
 
 public class Car {
-	
+//	 instance variable/attributes/properties/data:
+//		 make
+//		 model
+//		 color
+//		 currentSpeed
 	String make;
 	String model;
-	int currentSpeed;
 	String color;
-	 
-	/*
-	 * instance variable/attributes/properties/data:
-	 * make
-	 * model
-	 * currentSpeed
-	 * color
-	 * 
-	 * Methods-1:
-	 * 
+	int currentSpeed;
+	
+	/* Methods-1:
 	 * printCarInfo()
 	 * 		"car make[make], model[model], color[color], currentSpeed[currentSpeed]"
-	 * 
-	 * Method-2:
-	 * showCurrentSpeed
-	 * 		return type: void
-	 * 		param: int speedLimit
-	 * 		Print: "make is driving at currentSpeed, following speed limit - 55"
-	 * 				"make is driving at currentSpeed, over speed limit - 55"
 	 */
 	public void printCarInfo() {
 		String info = "Car make [" + make + "], model [" + model + "], " + "color [" + color + "], " + "currentSpeed [" + currentSpeed +"]";
@@ -34,6 +23,12 @@ public class Car {
 		System.out.println(info);
 	}
 	
+//	Method-2:
+//	 showCurrentSpeed
+//			return type: void
+//			param: int speedLimit
+//			Print: "make is driving at currentSpeed, following speed limit - 55"
+//			"make is driving at currentSpeed, over speed limit - 55"
 	public void showCurrentSpeed(int speedLimit) {
 		if (currentSpeed > speedLimit) {
 			String str = make +  "is driving at " + currentSpeed + ", over  speed limit - " + speedLimit;

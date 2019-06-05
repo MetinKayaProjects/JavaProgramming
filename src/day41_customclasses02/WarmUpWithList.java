@@ -10,14 +10,14 @@ public class WarmUpWithList {
 		myList.add(4);
 		myList.add(10);
 		
-		System.out.println(doubleTheList(myList));  //[10, 8, 20]
+		System.out.println("myList: "+ doubleTheList(myList));  //[10, 8, 20]
 		
 		List<Integer> myList2 = new ArrayList<>();
 		myList2.add(50);
 		myList2.add(44);
 		myList2.add(101);
 		List<Integer> newList = doubleTheList(myList2);
-		System.out.println(newList);
+		System.out.println("newList: "+ newList);
 		
 	}
 

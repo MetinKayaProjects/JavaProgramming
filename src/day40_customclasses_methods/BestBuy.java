@@ -7,11 +7,14 @@ public class BestBuy {
 		// System.out.println(brand);
 		// Above line will not work, we need object to use brand
 		// Create CellPhone object
+		
+		
+		System.out.println("------- class CellPhone -------");
 		CellPhone cell = new CellPhone(); // bunu CellPhone() classindan cekiyoruz.
 
 		System.out.println(cell.brand); // null
 		System.out.println(cell.screenSize); // 0.0
-		
+				
 		cell.brand = "Iphone";
 		cell.screenSize = 7.8;
 		cell.color = "Grey";
@@ -38,7 +41,7 @@ public class BestBuy {
 		System.out.println("price: " + cell2.price);
 		
 		System.out.println("---- Calling Methods ----");
-		//bunlar void oldugundan syso yaptirmaya gerek yok. class adini yazmaya gerek yok
+		//bunlar void oldugundan syso yaptirmaya gerek yok. 
 		cell.call();    //public void call()'dan cagiriyoruz
 		cell.message(); //public void message()
 		cell.takeAPhoto();//public void takeAPhoto() 
@@ -49,7 +52,19 @@ public class BestBuy {
 		cell2.message();
 		cell2.takeAPhoto();
 		
+		System.out.println("Print allinfo regarding " + cell.brand + ": ");
 		System.out.println();
+		cell.toString(); //toString method in the CellPhone class is return type, so we have to use println method
+		System.out.println(cell.toString());
+		
+		CellPhone cell3 = new CellPhone();
+		cell3.setBrand("Nokia");
+		System.out.println(cell3.brand); //Nokia
+		System.out.println(cell3.getBrand()); //Nokia
+		cell3.call();
+		cell3.message();
+		
+		System.out.println("----------class Contact -----------------");
 		
 		Contact c1 = new Contact();
 		c1.email = "mtn@gmail.com";
@@ -59,8 +74,9 @@ public class BestBuy {
 		c1.call();
 		c1.name();
 		c1.sendMessage();
-
-		c1.toString();
+System.out.println();
+		c1.toString();  //this is return type so we need to use println methot iot prin it out
+		System.out.println(c1.toString());
 
 	}
 

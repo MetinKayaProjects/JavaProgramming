@@ -19,7 +19,7 @@ public class EtsyDotCom {
 		//EtsyAccount [email=metin@gmail.com, firstName=Metin, password=tr12345]
 		
 		System.out.println();
-		
+		System.out.println("------acct2-----");
 		EtsyAccount acct2 = new EtsyAccount();
 		acct2.setEmail("cengizgmail.com");
 		acct2.setFirstName("helireva123");
@@ -28,14 +28,14 @@ public class EtsyDotCom {
 		System.out.println(acct2.toString());
 		
 		System.out.println();
-		
+		System.out.println("-----acct3 -------");
 		EtsyAccount acct3 = new EtsyAccount("salih@gmail.com", "Salih", "royal1234");
 		//acct3.setEmail("salih@gmail.com",);
 		
 		System.out.println(acct3.toString());
 		
 		System.out.println();
-		
+		System.out.println("-----acct4 -------");
 		EtsyAccount acct4 = new EtsyAccount();
 		acct4.setEmail("salih@gmail.com");
 		acct4.setFirstName("Salih");
@@ -44,7 +44,7 @@ public class EtsyDotCom {
 		System.out.println(acct4.toString());
 		
 		System.out.println();
-		
+		System.out.println("-----acct5 -------");
 		EtsyAccount acct5 = new EtsyAccount("woodenspoon@gmail.com", "Tomi");
 		System.out.println(acct5.toString()); //in every run the password is changed:
 //		EtsyAccount [email=woodenspoon@gmail.com, firstName=Tomi, password=10209m]

@@ -96,7 +96,7 @@ public class EtsyAccount {
 //		this.email = email;
 //		this.firstName = "";  //up to you to write this
 //		this.password = "";
-		setEmail(email);
+		setEmail(email);  //call the setter : setEmail(email)
 
 	}
 
@@ -111,7 +111,7 @@ public class EtsyAccount {
 		this.password = getRandomPassword(); // random, password with 6 characters
 		
 	}
-	//constructor for random password
+	//method for random password
 	private String getRandomPassword() {
         Random rd = new Random();
         String letters = "abcdefghijklmnopqrstuvwxyz0123456789";

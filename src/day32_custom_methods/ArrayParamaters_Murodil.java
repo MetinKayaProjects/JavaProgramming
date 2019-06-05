@@ -56,11 +56,12 @@ public class ArrayParamaters_Murodil {
 	//version 2. we will call printArray method
 	public static void print2ArraysV2(int[] arrNums1, int[] arrNums2) {
 		if(arrNums1.length > arrNums2.length) {
-			printArray(arrNums1);
-			printArray(arrNums2);
+			
+			System.out.println("LargerArray : "); printArray(arrNums1);
+			System.out.println("SmallerArray : "); printArray(arrNums2);
 		}else {
-			printArray(arrNums2);
-			printArray(arrNums1);
+			System.out.println("LargerArray : "); printArray(arrNums2);
+			System.out.println("Smaller Array: " + Arrays.toString(arrNums1)); printArray(arrNums1);
 		}
 	}
 

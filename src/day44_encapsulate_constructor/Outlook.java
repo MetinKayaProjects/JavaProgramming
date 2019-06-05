@@ -7,6 +7,9 @@ public class Outlook {
 		//Email email = new Email(); //not compile
 		//Email email = new Email(123); //not compile
 		Email email = new Email("Hello; how is it going?");
+		new Email("Good morning");
+		Email email2 = new Email("Hi!");
+	
 		
 	}
 

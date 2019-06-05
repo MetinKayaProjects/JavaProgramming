@@ -18,5 +18,18 @@ public class Employee {
 		System.out.println("Name[" + name +"], jobTitle[" + jobTitle 
 				+"], salary[" + salary + "]");
 	}
+	public void setAllInfo2(String name, String jobTitle, double salary) {
+		this.name = name;
+		this.jobTitle = jobTitle;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", jobTitle=" + jobTitle + ", salary=" + salary + "]";
+	}
+
+
+	
 	
 }

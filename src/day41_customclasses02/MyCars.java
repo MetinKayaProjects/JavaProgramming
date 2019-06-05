@@ -22,6 +22,16 @@ public class MyCars {
 		System.out.println("before : " + car1.currentSpeed);
 		car1.accellerate(20);
 		System.out.println("after : " + car1.currentSpeed);
+		
+		BMW m1 = new BMW();
+		m1.make ="BMW";
+		m1.model = "330i";
+		m1.price = 23000.00;
+		
+		m1.showPrice();
+		System.out.println("model: "+m1.model);
+		System.out.println("make: "+m1.make);
+		System.out.println("price: " +m1.price);
 	}
 
 }

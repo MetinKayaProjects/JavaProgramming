@@ -3,7 +3,6 @@ import java.util.*;
 public class Starbucks {
 	
 	public static void main(String[] args) {
-		  //declare an array that can store 2 Coffee objects
 		//declare coffeeArray that can store 2 coffee objects
 			Coffee[] coffeeArray = new Coffee[2];
 		// create coffee object and assign to index 0
@@ -21,6 +20,8 @@ public class Starbucks {
 	    //print data from object in index 1
 	        coffeeArray[1].getCoffeeInfo();
 	      //  latte.getCoffeeInfo();
+	        
+	      
 	        
 		}
 
