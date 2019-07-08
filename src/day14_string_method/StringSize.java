@@ -7,7 +7,7 @@ public class StringSize {
 		//check if matches "Good Morning" and print match
 		// or not match
 		//Convert to all uppercase and print
-		
+		System.out.println(str1.length());//12
 		if (str1.equals("Good Morning")) {
 			System.out.println("Match");                     //Match
 		}else {

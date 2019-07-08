@@ -9,7 +9,9 @@ public class VehicleTest {
 		System.out.println(sb.getLength() + " ft");  //12ft
 		System.out.println("$" + sb.getPrice());  //$23000
 		System.out.println(sb.getPowerSource());  //wind
-		sb.move();
+		System.out.println(sb.getType());//sailboat
+		System.out.println(sb.getWheels());//0
+		sb.move();//Sailboat is sailing on the sea...
 		
 		System.out.println();
 		
@@ -17,7 +19,8 @@ public class VehicleTest {
 		
 		System.out.println(bike.getWheels()); //2
 		System.out.println(bike.getPrice());  //750.5
-		System.out.println(bike.getPowerSource());
+		System.out.println(bike.getType());  //Bycle
+		System.out.println(bike.getPowerSource());  //only a person
 		bike.move();  //cycling
 		
 		

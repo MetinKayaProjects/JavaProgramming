@@ -1,5 +1,7 @@
 package day55_abstraction_4;
 
+import java.util.ArrayList;
+
 public abstract class Vehicle {
 	private int wheels;
 	private double price;
@@ -14,11 +16,10 @@ public abstract class Vehicle {
 		this.type = type;
 		this.powerSource = powerSource;
 	}
-	
+	//abstract method
 	public abstract void move();
 	
 	
-
 	//getter/setter
 	public int getWheels() {
 		return wheels;

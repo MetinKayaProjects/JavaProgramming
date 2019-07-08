@@ -18,6 +18,9 @@ public class ConverCharToString {
 		char ch3 = 'x';
 		String str3 = Character.toString(ch3);
 		System.out.println(str3);
+		
+		//String to char array
+		//char[] arr = str.toCharArray();   
 
 	}
 

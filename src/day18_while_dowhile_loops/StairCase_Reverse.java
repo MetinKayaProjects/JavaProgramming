@@ -23,7 +23,13 @@ public class StairCase_Reverse {
 		stairs = stairs.substring(0,stairs.length()-1);
 		num --;
 	}
-		
+	
+//	int idx = 0;
+//		System.out.println(stairs.length());
+//	for (int i = 10; i > 0; i--) {
+//		System.out.println(stairs.substring(0,(stairs.length()-1-idx)));
+//		idx++;
+//	}
 		
 		
 		

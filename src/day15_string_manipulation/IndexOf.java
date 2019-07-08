@@ -15,7 +15,7 @@ public class IndexOf {
 		
 		String url = "www.okta.com"; //index 01234567891011 >>12 character
 		int i =url.indexOf(".");
-		System.out.println("Position of . :" + i);
+		System.out.println("Position of . :" + i);//Position of . :3
 		System.out.println(url.charAt(i+3));//t   burada i noktanin oldugu yerdi. yani noktadan 3 karakter sonra t var
 		
 		String title = "Java - Google Search";

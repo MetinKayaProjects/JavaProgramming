@@ -21,7 +21,7 @@ public class FootballTeam {
 		teams[1][4] = "Roman";
 		teams[1][5] = "Dmitriy";
 
-		System.out.println("How many team are there: " + teams.length);
+		System.out.println("How many team are there: " + teams.length);//2
 		
 		System.out.println("Team 0: ");
 		for (int i = 0; i < teams.length-1; i++) {
@@ -38,6 +38,13 @@ public class FootballTeam {
 				System.out.println(i + " " + j + " - " + teams[i][j]);
 			}
 
+		}
+		System.out.println("++++");
+		for (int i = 0; i < teams.length; i++) {
+			for (int j = 0; j < teams[i].length; j++) {
+				System.out.println(i + " " + j + " - " + teams[i][j]);
+			}
+			
 		}
 
 		System.out.println();
