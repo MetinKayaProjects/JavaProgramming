@@ -21,7 +21,7 @@ public class GuessANumber {
 			guessNumber = scan.nextInt();
 			number = guessNumber - secretNumber;
 			index++;
-			if(index < 5) {
+			if(index < 10) {
 				if(number > 0) {
 					System.out.println("Guessed number is larger than secret number, please try again: ");
 				
@@ -32,7 +32,7 @@ public class GuessANumber {
 				
 				
 			}else {
-				System.out.println("You tried 5 times. Sorry you have no more chance!");
+				System.out.println("You tried more than" +  index + " times. Sorry you have no more chance!");
 			}		
 				
 		}while(number != 0);

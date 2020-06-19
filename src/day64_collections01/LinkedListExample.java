@@ -11,7 +11,8 @@ public class LinkedListExample {
 		list.add(77);
 		
 		System.out.println(list.toString());//[50, 77]
-		
+		System.out.println(list.get(0)); //50
+		System.out.println(list.get(1)); //77
 		
 		//LinkedList
 		LinkedList<Integer> list2 = new LinkedList<Integer>();

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class VoidMethods {
 	public static void main(String[] args) {
-	
+			
 		countUp(8);
 		countUp(-2);
 		

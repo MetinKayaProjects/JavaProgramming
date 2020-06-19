@@ -4,7 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class CheckedVSUnchecked2 {
-	public static void main(String[] args) throws InterruptedException, MalformedURLException  {
+	public static void main(String[] args) throws InterruptedException, MalformedURLException{
 		//checked exception - InterruptedException
 		//HANDLE-OR-DECLARE  (2 options)
 		//1.DECLARE --> throws InterruptedException'u ekleyerek

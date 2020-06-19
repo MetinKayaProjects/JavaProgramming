@@ -42,6 +42,7 @@ public class CitiesTogether {
 		String app1 = "Skype and Slack";
 		System.out.println("We use " +app1+ " for messaging with Classmates.");
 		System.out.println("We use " +"\""+ app1+ "\"" + " for messaging with Classmates.");
+		
 
 	}
 }

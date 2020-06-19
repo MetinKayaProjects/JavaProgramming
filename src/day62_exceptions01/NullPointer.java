@@ -2,7 +2,8 @@ package day62_exceptions01;
 
 public class NullPointer {
 	
-	static String name;  //null
+	static String name;  //null   bu durumda catch blok calisir
+//	static String name="Alex";  // bu durumda try calisir ve ALI yazdirir
 	
 	public static void main(String[] args) {
 		try {

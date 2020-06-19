@@ -26,6 +26,7 @@ public class ArraysVsArrayList {
 	System.out.println(numList.get(0)); // 44
 	
 	System.out.println(Arrays.toString(numsArrays));//[30, 50, 5001]
+	System.out.println(Arrays.deepToString(days)); //[Monday, Tuesday, null, null, null, null, null]
 	System.out.println(numList.toString());//[44, 44, 101]
 	
 	
